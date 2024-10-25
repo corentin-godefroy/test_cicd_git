@@ -21,5 +21,4 @@
         sudo pip install -r requirements.txt
     - name: Run tests
       run: |
-        sudo pytest
-        1
+        echo 1 | sudo pytest
